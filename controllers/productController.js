@@ -16,6 +16,28 @@ export function getProducts(req, res) {
 			return res.status(500).send("Invalid JSON format in the file.");
 		}
 
+		Object.entries(req.query).forEach((key, value) => {
+			if (!products || !Array.isArray(products)) return;
+
+			if (key === "tag_list") {
+				const values = req.query[key].split(",");
+				products = products.filter((product) => {
+					return product[key].some((tag) => values.includes(tag));
+				});
+			} else {
+				products = products.filter((product) => {
+					const productStr =
+						JSON.stringify(product).toLocaleLowerCase();
+					const terms = req.query[key[0]]
+						.toLocaleLowerCase()
+						.trim()
+						.split(",");
+
+					return terms.some((term) => productStr.includes(term));
+				});
+			}
+		});
+
 		res.status(200).json(products);
 	});
 }
