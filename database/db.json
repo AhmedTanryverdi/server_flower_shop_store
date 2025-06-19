@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "Розы красные",
 		"price": 1500.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["букеты", "розы"],
 		"color": "Красный",
 		"format": "Бутон"
@@ -12,7 +12,7 @@
 		"id": 2,
 		"name": "Тюльпаны жёлтые",
 		"price": 800.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["тюльпаны", "весна"],
 		"color": "Жёлтый",
 		"format": "Бутон"
@@ -21,7 +21,7 @@
 		"id": 3,
 		"name": "Лилии белые",
 		"price": 1200.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["лилии", "свадебные"],
 		"color": "Белый",
 		"format": "Бутон"
@@ -30,7 +30,7 @@
 		"id": 4,
 		"name": "Гвоздики розовые",
 		"price": 600.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["гвоздики", "праздничные"],
 		"color": "Розовый",
 		"format": "Бутон"
@@ -39,7 +39,7 @@
 		"id": 5,
 		"name": "Хризантемы фиолетовые",
 		"price": 900.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["хризантемы", "осень"],
 		"color": "Фиолетовый",
 		"format": "Бутон"
@@ -48,7 +48,7 @@
 		"id": 6,
 		"name": "Ирисы синие",
 		"price": 1000.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["ирисы", "экзотические"],
 		"color": "Синий",
 		"format": "Бутон"
@@ -57,7 +57,7 @@
 		"id": 7,
 		"name": "Нарциссы белые",
 		"price": 700.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["нарциссы", "весна"],
 		"color": "Белый",
 		"format": "Бутон"
@@ -66,7 +66,7 @@
 		"id": 8,
 		"name": "Георгины оранжевые",
 		"price": 1100.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["георгины", "летние"],
 		"color": "Оранжевый",
 		"format": "Бутон"
@@ -75,7 +75,7 @@
 		"id": 9,
 		"name": "Астры фиолетовые",
 		"price": 950.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["астры", "осень"],
 		"color": "Фиолетовый",
 		"format": "Бутон"
@@ -84,7 +84,7 @@
 		"id": 10,
 		"name": "Гиацинты голубые",
 		"price": 1300.0,
-		"image_url": "/image.png",
+		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["гиацинты", "весна"],
 		"color": "Голубой",
 		"format": "Бутон"
