@@ -15,29 +15,41 @@ export function getProducts(req, res) {
 		} catch (parseErr) {
 			return res.status(500).send("Invalid JSON format in the file.");
 		}
+		
+		if (!products || !Array.isArray(products)) return;
 
-		Object.entries(req.query).forEach((key, value) => {
-			if (!products || !Array.isArray(products)) return;
-
-			if (key === "tag_list") {
-				const values = req.query[key].split(",");
-				products = products.filter((product) => {
-					return product[key].some((tag) => values.includes(tag));
-				});
-			} else {
-				products = products.filter((product) => {
-					const productStr =
-						JSON.stringify(product).toLocaleLowerCase();
-					const terms = req.query[key[0]]
-						.toLocaleLowerCase()
-						.trim()
-						.split(",");
-
-					return terms.some((term) => productStr.includes(term));
-				});
+		const filteredProducts = products.filter((product) => {
+			let validProduct = true;
+			for (let [key, value] of Object.entries(req.query)) {
+				switch (key) {
+					case "price_min":
+						if (Number(product.price) < Number(value)) return false;
+						break;
+					case "price_max":
+						if (Number(product.price) > Number(value)) return false;
+						break;
+					case "tags":
+						if (value !== "undefined") {
+							const tags = value.split(",");
+							validProduct = product.tag_list.some((tag) =>
+								tags.includes(tag)
+							);
+						}
+						break;
+					default:
+						const productStr =
+							JSON.stringify(product).toLocaleLowerCase();
+						const terms = req.query[key]
+							.toLocaleLowerCase()
+							.trim()
+							.split(",");
+						validProduct = terms.some((term) =>
+							productStr.includes(term)
+						);
+				}
 			}
+			return validProduct;
 		});
-
-		res.status(200).json(products);
+		res.status(200).json(filteredProducts);
 	});
 }
