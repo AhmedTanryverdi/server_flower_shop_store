@@ -6,87 +6,277 @@
 		"image_url": "http://localhost:3000/catalog/image.png",
 		"tag_list": ["букеты", "розы"],
 		"color": "Красный",
-		"format": "Бутон"
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 2,
-		"name": "Тюльпаны жёлтые",
-		"price": 800.0,
+		"name": "Тюльпаны желтые",
+		"price": 1200.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["тюльпаны", "весна"],
-		"color": "Жёлтый",
-		"format": "Бутон"
+		"tag_list": ["букеты", "тюльпаны"],
+		"color": "Желтый",
+		"format": "Бутон",
+		"rating": 5,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 3,
 		"name": "Лилии белые",
-		"price": 1200.0,
+		"price": 1800.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["лилии", "свадебные"],
+		"tag_list": ["букеты", "лилии"],
 		"color": "Белый",
-		"format": "Бутон"
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 4,
 		"name": "Гвоздики розовые",
-		"price": 600.0,
+		"price": 1000.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["гвоздики", "праздничные"],
+		"tag_list": ["букеты", "гвоздики"],
 		"color": "Розовый",
-		"format": "Бутон"
+		"format": "Бутон",
+		"rating": 3,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 5,
-		"name": "Хризантемы фиолетовые",
-		"price": 900.0,
+		"name": "Хризантемы оранжевые",
+		"price": 1300.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["хризантемы", "осень"],
-		"color": "Фиолетовый",
-		"format": "Бутон"
+		"tag_list": ["букеты", "хризантемы"],
+		"color": "Оранжевый",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 6,
 		"name": "Ирисы синие",
-		"price": 1000.0,
+		"price": 1600.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["ирисы", "экзотические"],
+		"tag_list": ["букеты", "ирисы"],
 		"color": "Синий",
-		"format": "Бутон"
+		"format": "Бутон",
+		"rating": 5,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 7,
-		"name": "Нарциссы белые",
-		"price": 700.0,
+		"name": "Нарциссы желтые",
+		"price": 1100.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["нарциссы", "весна"],
-		"color": "Белый",
-		"format": "Бутон"
+		"tag_list": ["букеты", "нарциссы"],
+		"color": "Желтый",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 8,
-		"name": "Георгины оранжевые",
-		"price": 1100.0,
+		"name": "Гиацинты фиолетовые",
+		"price": 1400.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["георгины", "летние"],
-		"color": "Оранжевый",
-		"format": "Бутон"
+		"tag_list": ["букеты", "гиацинты"],
+		"color": "Фиолетовый",
+		"format": "Бутон",
+		"rating": 5,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 9,
-		"name": "Астры фиолетовые",
-		"price": 950.0,
+		"name": "Георгины красные",
+		"price": 1700.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["астры", "осень"],
-		"color": "Фиолетовый",
-		"format": "Бутон"
+		"tag_list": ["букеты", "георгины"],
+		"color": "Красный",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	},
 	{
 		"id": 10,
-		"name": "Гиацинты голубые",
+		"name": "Астры синие",
+		"price": 1200.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "астры"],
+		"color": "Синий",
+		"format": "Бутон",
+		"rating": 3,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 11,
+		"name": "Гладиолусы розовые",
+		"price": 1500.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "гладиолусы"],
+		"color": "Розовый",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 12,
+		"name": "Пионы белые",
+		"price": 1800.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "пионы"],
+		"color": "Белый",
+		"format": "Бутон",
+		"rating": 5,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 13,
+		"name": "Фрезии желтые",
+		"price": 1000.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "фрезии"],
+		"color": "Желтый",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 14,
+		"name": "Альстромерии оранжевые",
 		"price": 1300.0,
 		"image_url": "http://localhost:3000/catalog/image.png",
-		"tag_list": ["гиацинты", "весна"],
-		"color": "Голубой",
-		"format": "Бутон"
+		"tag_list": ["букеты", "альстромерии"],
+		"color": "Оранжевый",
+		"format": "Бутон",
+		"rating": 3,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 15,
+		"name": "Лаванда фиолетовая",
+		"price": 1600.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "лаванда"],
+		"color": "Фиолетовый",
+		"format": "Бутон",
+		"rating": 5,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 16,
+		"name": "Клематисы синие",
+		"price": 1100.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "клематисы"],
+		"color": "Синий",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 17,
+		"name": "Гортензии розовые",
+		"price": 1400.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "гортензии"],
+		"color": "Розовый",
+		"format": "Бутон",
+		"rating": 5,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 18,
+		"name": "Анютины глазки фиолетовые",
+		"price": 1700.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "анютины глазки"],
+		"color": "Фиолетовый",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 19,
+		"name": "Виолы синие",
+		"price": 1200.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "виолы"],
+		"color": "Синий",
+		"format": "Бутон",
+		"rating": 3,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
+	},
+	{
+		"id": 20,
+		"name": "Крокусы желтые",
+		"price": 1500.0,
+		"image_url": "http://localhost:3000/catalog/image.png",
+		"tag_list": ["букеты", "крокусы"],
+		"color": "Желтый",
+		"format": "Бутон",
+		"rating": 4,
+		"images": [
+			"http://localhost:3000/catalog/image.png",
+			"http://localhost:3000/catalog/image.png"
+		]
 	}
 ]
