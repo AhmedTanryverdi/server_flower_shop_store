@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
 
-export function getProducts(req, res) {
-	const filePath = path.join(path.resolve(), "/database/db.json");
+const filePath = path.join(path.resolve(), "/database/db.json");
 
+export function getProducts(req, res) {
 	fs.readFile(filePath, "utf8", (err, data) => {
 		if (err) {
 			return res.status(500).send("Error reading the file.");
@@ -15,7 +15,7 @@ export function getProducts(req, res) {
 		} catch (parseErr) {
 			return res.status(500).send("Invalid JSON format in the file.");
 		}
-		
+
 		if (!products || !Array.isArray(products)) return;
 
 		const filteredProducts = products.filter((product) => {
@@ -51,5 +51,24 @@ export function getProducts(req, res) {
 			return validProduct;
 		});
 		res.status(200).json(filteredProducts);
+	});
+}
+
+export function getOneProduct(req, res) {
+	const productId = parseInt(req.params.id);
+	fs.readFile(filePath, "utf8", (err, data) => {
+		if (err) {
+			return res.status(500).send("Error reading the file.");
+		}
+
+		try {
+			const products = JSON.parse(data);
+			const product = products.find(
+				(item) => parseInt(item.id) === productId
+			);
+			return res.status(200).json(product);
+		} catch (error) {
+			return res.status(500).send("Invalid JSON format in the file.");
+		}
 	});
 }
