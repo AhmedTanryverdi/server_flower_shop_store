@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { getProducts } from "./controllers/productController.js";
+import { getOneProduct, getProducts } from "./controllers/productController.js";
 
 const app = express();
 app.use(express.json());
@@ -9,7 +9,10 @@ app.use(
 		origin: "http://localhost:5173",
 	})
 );
+
 app.use("/catalog", express.static("uploads"));
+
+app.get("/catalog/:id", getOneProduct);
 
 app.get("/catalog", getProducts);
 
