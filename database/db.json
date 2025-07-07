@@ -10,7 +10,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -24,7 +26,9 @@
 		"rating": 5,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -38,7 +42,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -52,7 +58,9 @@
 		"rating": 3,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -66,7 +74,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -80,7 +90,9 @@
 		"rating": 5,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -94,7 +106,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -108,7 +122,9 @@
 		"rating": 5,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -122,7 +138,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -136,7 +154,9 @@
 		"rating": 3,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -150,7 +170,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -164,7 +186,9 @@
 		"rating": 5,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -178,7 +202,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -192,7 +218,9 @@
 		"rating": 3,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -206,7 +234,9 @@
 		"rating": 5,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -220,7 +250,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -234,7 +266,9 @@
 		"rating": 5,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -248,7 +282,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -262,7 +298,9 @@
 		"rating": 3,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	},
 	{
@@ -276,7 +314,9 @@
 		"rating": 4,
 		"images": [
 			"http://localhost:3000/catalog/image.png",
-			"http://localhost:3000/catalog/image.png"
+			"http://localhost:3000/catalog/image2.png",
+			"http://localhost:3000/catalog/image3.png",
+			"http://localhost:3000/catalog/image4.png"
 		]
 	}
 ]
