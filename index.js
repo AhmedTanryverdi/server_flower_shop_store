@@ -17,7 +17,6 @@ app.get("/catalog/:id", getOneProduct);
 
 app.get("/catalog", getProducts);
 
-app.post("/send-reviews", addReviews);
 
 const PORT = process.env.PORT || 3000;
 
